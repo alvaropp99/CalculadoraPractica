@@ -12,11 +12,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/fondo_texto"
         android:gravity="end"
-
         android:padding="8dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +26,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="5dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,38 +40,38 @@
 
             <Button
                 android:id="@+id/cBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="C"></Button>
 
             <Button
                 android:id="@+id/masMenosBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="+/-"></Button>
 
             <Button
                 android:id="@+id/borrarBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="DEL" />
 
             <Button
                 android:id="@+id/dividirBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="/"></Button>
         </LinearLayout>
 
@@ -84,38 +83,38 @@
 
             <Button
                 android:id="@+id/sieteBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="7"></Button>
 
             <Button
                 android:id="@+id/ochoBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="8"></Button>
 
             <Button
                 android:id="@+id/nueveBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="9"></Button>
 
             <Button
                 android:id="@+id/multiplicarBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="X"></Button>
         </LinearLayout>
 
@@ -127,38 +126,38 @@
 
             <Button
                 android:id="@+id/cuatroBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="4"></Button>
 
             <Button
                 android:id="@+id/cincoBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="5"></Button>
 
             <Button
                 android:id="@+id/seisBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="6"></Button>
 
             <Button
                 android:id="@+id/restarBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="-"></Button>
         </LinearLayout>
 
@@ -170,38 +169,38 @@
 
             <Button
                 android:id="@+id/unoBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="1"></Button>
 
             <Button
                 android:id="@+id/dosBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="2"></Button>
 
             <Button
                 android:id="@+id/tresBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="3"></Button>
 
             <Button
                 android:id="@+id/sumarBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
+
                 android:text="+"></Button>
         </LinearLayout>
 
@@ -213,38 +212,34 @@
 
             <Button
                 android:id="@+id/restoBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
                 android:text="%"></Button>
 
             <Button
                 android:id="@+id/ceroBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
                 android:text="0"></Button>
 
             <Button
                 android:id="@+id/puntoBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
                 android:text="."></Button>
 
             <Button
                 android:id="@+id/igualBtn"
-                android:layout_width="50dp"
-                android:layout_height="80dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/fondo_boton"
                 android:text="="></Button>
         </LinearLayout>
 
